@@ -1,0 +1,39 @@
+#board {
+  margin: 0 auto;
+  width: 800px;
+}
+
+#header {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#numbers {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#card {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 100px;
+}
